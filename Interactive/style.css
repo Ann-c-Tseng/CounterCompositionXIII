@@ -1,0 +1,145 @@
+/* Colours from the painting:
+Light gray - #a0a5ab
+Dark gray - #706569
+Cream - #d5ccc3
+Mustard -#d4a948
+Black - #27221f
+Red - #a61d0e
+*/
+
+* {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+a {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Main Container */
+.grid-container {
+    margin: 2rem 25vw;
+    padding: 1rem 0;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(255, 255, 255);
+    width: 46.5%;
+    height: 80vh;
+
+    overflow: hidden;
+    position: relative;
+}
+
+
+.hov {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.hov:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+/* Shapes */
+.shape1 {
+    border-left: 150px solid transparent;
+    border-right: 150px solid #a0a5ab;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    transform: rotate(45deg);
+
+    position: absolute;
+    top: -150px;
+    left: -150px;
+}
+
+.shape2 {
+    border-left: 330px solid transparent;
+    border-right: 330px solid #27221f;
+    border-bottom: 330px solid transparent;
+    border-top: 330px solid transparent;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: -15px;
+    left: -433px;
+}
+
+.shape3 {
+    border-left: 110px solid #d4a948;
+    border-right: 110px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-top: 110px solid transparent;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: 418px;
+    left: 0px;
+}
+
+.shape4 {
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    border-bottom: 130px solid #d5ccc3;
+    border-top: 130px solid transparent;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: 399px;
+    left: -20px;
+}
+
+.shape5 {
+    border-left: 500px solid transparent;
+    border-right: 500px solid #a61d0e;
+    border-bottom: 500px solid transparent;
+    border-top: 500px solid transparent;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: -65px;
+    left: -274px;
+}
+
+.shape6 {
+    border-left: 270px solid #d5ccc3;
+    border-right: 270px solid transparent;
+    border-bottom: 270px solid transparent;
+    border-top: 270px solid transparent;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: -105px;
+    left: 227px;
+}
+
+.shape7 {
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+    border-bottom: 210px solid transparent;
+    border-top: 210px solid #706569;
+    transform: rotate(0deg);
+
+    position: absolute;
+    top: -45px;
+    left: 287px;
+}
+
+.shape8 {
+    border-left: 210px solid transparent;
+    border-right: 210px solid transparent;
+    border-bottom: 210px solid transparent;
+    border-top: 210px solid #a0a5ab;
+    transform: rotate(45deg);
+
+    position: absolute;
+    top: 521px;
+    left: 16px;
+}
